@@ -4,9 +4,9 @@
 This repository contains a collection of scripts developed for processing and aligning biological sequence data. The project involves translating nucleotide sequences into amino acids using Python and then performing multiple sequence alignments with Clustal Omega using Bash scripts on a high-performance computing (HPC) environment.
 
 ## Contents
-**sequence_translate.py:** Python script for translating nucleotide sequences to amino acids.   
-**clustalAlign.sh:** Bash script to perform sequence alignment using Clustal Omega.   
-**sbatch_clustalAlign.sh:** Bash script for submitting the alignment job to an HPC cluster using SLURM. 
+**Sequence_Translate.py:** Python script for translating nucleotide sequences to amino acids.   
+**Sequence_Alignment.sh:** Bash script to perform sequence alignment using Clustal Omega.   
+**sbatch_Sequence_Alignment.sh:** Bash script for submitting the alignment job to an HPC cluster using SLURM. 
 
 ### Prerequisites
 Python (version 3.x)    
@@ -23,13 +23,13 @@ Access to an HPC cluster with SLURM scheduling (for sbatch_clustalAlign.sh)
    
 ## Usage
 ### Sequence Translation
-Run sequence_translate.py with input and output file paths:     
-   in CDL type: python sequence_translate.py [input_fasta_file] [output_fasta_file]
+Run Sequence_Translate.py with input and output file paths:     
+   in CDL type: python Sequence_Translate.py [input_fasta_file] [output_fasta_file]
 ### Multiple Sequence Alignment
-Execute clustalAlign.sh directly if running locally:     
-   in CDL type: bash clustalAlign.sh   
-For HPC clusters with SLURM, use sbatch_clustalAlign.sh:     
-   in CDL type: sbatch sbatch_clustalAlign.sh [path_to_input_directory]
+Execute Sequence_Alignment.sh directly if running locally:     
+   in CDL type: bash Sequence_Alignment.sh   
+For HPC clusters with SLURM, use sbatch_Sequence_Alignment.sh:     
+   in CDL type: sbatch sbatch_Sequence_Alignment.sh [path_to_input_directory]
 
 ## Author
 Vitali Bahatyrevich
