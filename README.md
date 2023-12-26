@@ -26,9 +26,9 @@ Access to an HPC cluster with SLURM scheduling (for sbatch_clustalAlign.sh)
 Run sequence_translate.py with input and output file paths:     
    in CDL type: python sequence_translate.py [input_fasta_file] [output_fasta_file]
 ### Multiple Sequence Alignment
-Execute clustalAlign.sh directly if running locally:   
-   in CDL type: bash clustalAlign.sh
-For HPC clusters with SLURM, use sbatch_clustalAlign.sh:   
+Execute clustalAlign.sh directly if running locally:     
+   in CDL type: bash clustalAlign.sh   
+For HPC clusters with SLURM, use sbatch_clustalAlign.sh:     
    in CDL type: sbatch sbatch_clustalAlign.sh [path_to_input_directory]
 
 ## Author
