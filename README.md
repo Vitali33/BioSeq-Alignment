@@ -15,21 +15,21 @@ Clustal Omega
 Access to an HPC cluster with SLURM scheduling (for sbatch_clustalAlign.sh)
 
 ## Installation
-1. Clone this repository to your local machine or HPC environment:
-in CDL type: git clone [URL to your repository] 
+1. Clone this repository to your local machine or HPC environment:   
+   in CDL type: git clone [URL to your repository] 
 2. Ensure that Python 3 and Biopython are installed.
 3. Install Clustal Omega if not already available on your system.
 4. Download fasta file for translation and sequence alignment.
    
 ## Usage
 ### Sequence Translation
-Run sequence_translate.py with input and output file paths:
-in CDL type: python sequence_translate.py [input_fasta_file] [output_fasta_file]
+Run sequence_translate.py with input and output file paths:     
+   in CDL type: python sequence_translate.py [input_fasta_file] [output_fasta_file]
 ### Multiple Sequence Alignment
-Execute clustalAlign.sh directly if running locally:
-in CDL type: bash clustalAlign.sh
-For HPC clusters with SLURM, use sbatch_clustalAlign.sh:
-in CDL type: sbatch sbatch_clustalAlign.sh [path_to_input_directory]
+Execute clustalAlign.sh directly if running locally:   
+   in CDL type: bash clustalAlign.sh
+For HPC clusters with SLURM, use sbatch_clustalAlign.sh:   
+   in CDL type: sbatch sbatch_clustalAlign.sh [path_to_input_directory]
 
 ## Author
 Vitali Bahatyrevich
