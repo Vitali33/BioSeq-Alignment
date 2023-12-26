@@ -4,9 +4,9 @@
 This repository contains a collection of scripts developed for processing and aligning biological sequence data. The project involves translating nucleotide sequences into amino acids using Python and then performing multiple sequence alignments with Clustal Omega using Bash scripts on a high-performance computing (HPC) environment.
 
 ## Contents
-**sequence_translate.py:** Python script for translating nucleotide sequences to amino acids.  
-**clustalAlign.sh:** Bash script to perform sequence alignment using Clustal Omega.  
-**sbatch_clustalAlign.sh:** Bash script for submitting the alignment job to an HPC cluster using SLURM.
+**sequence_translate.py:** Python script for translating nucleotide sequences to amino acids.   
+**clustalAlign.sh:** Bash script to perform sequence alignment using Clustal Omega.   
+**sbatch_clustalAlign.sh:** Bash script for submitting the alignment job to an HPC cluster using SLURM. 
 
 ### Prerequisites
 Python (version 3.x)
