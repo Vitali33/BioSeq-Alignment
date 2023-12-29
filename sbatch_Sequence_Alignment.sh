@@ -17,9 +17,9 @@
 ###
 # Usage
 ###
-# Copy sbatch_clustalAlign.sh and clustalAlign.sh to your directory (or subdirectory)
+# Copy sbatch_Sequence_Alignment.sh and Sequence_Alignment.sh to your directory (or subdirectory)
 # From that same directory run this command: 
-# sbatch sbatch_clustalAlign.sh
+# sbatch sbatch_Sequence_Alignment.sh
 #
 # ASSUMES that input apoe_aa.fasta is also in the your directory
 
@@ -39,7 +39,7 @@ echo "Copying input apoe_aa.fasta file from ${1} to $(pwd)"
 cp ${1}apoe_aa.fasta .
 
 echo "Align sequences within apoe_aa.fasta with clustalo $(date)"
-bash clustalAlign.sh
+bash Sequence_Alignment.sh
 
 echo "Copy apoe_alignment.fasta output file to ${1}"
 cp apoe_alignment.fasta $1
