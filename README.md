@@ -12,7 +12,7 @@ This repository contains a collection of scripts developed for processing and al
 Python (version 3.x)    
 Biopython library    
 Clustal Omega    
-Access to an HPC cluster with SLURM scheduling (for sbatch_clustalAlign.sh)   
+Access to an HPC cluster with SLURM scheduling (for sbatch_Sequence_Alignment.sh)   
 
 ## Installation
 1. Clone this repository to your local machine or HPC environment:   
